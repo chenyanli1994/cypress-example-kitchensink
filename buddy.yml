@@ -6,7 +6,7 @@
   actions:
     - action: "Execute: npm run cy:run"
       type: "BUILD"
-      working_directory: "/buddy/cypress-example-kitchensink"
+      working_directory: "/buddy/cypress-myFirstTest"
       docker_image_name: "cypress/base"
       docker_image_tag: "latest"
       execute_commands:
@@ -17,6 +17,6 @@
       cached_dirs:
         - "/root/.cache/Cypress"
       volume_mappings:
-        - "/:/buddy/cypress-example-kitchensink"
+        - "/:/buddy/cypress-myFirstTest"
       trigger_condition: "ALWAYS"
       shell: "BASH"

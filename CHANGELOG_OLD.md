@@ -1,4 +1,4 @@
-Find changes for versions after 1.0.4 at [cypress-example-kitchensink/releases](https://github.com/cypress-io/cypress-example-kitchensink/releases)
+Find changes for versions after 1.0.4 at [cypress-myFirstTest/releases](https://github.com/cypress-io/cypress-myFirstTest/releases)
 
 #### 1.0.4 - *(12/05/18)*
 - update image placeholder links to https
